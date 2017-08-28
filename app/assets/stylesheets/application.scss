@@ -16,3 +16,22 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#parent {
+    font-size:0;
+}
+#parent > div {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid;
+    font-size:10px;
+}
+
+#tile {
+	font-size:0;
+}
+#tile > div {
+	display: inline-block;
+	padding: 5px;
+	font-size:10px;
+}
+
